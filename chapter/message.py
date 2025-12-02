@@ -1,5 +1,4 @@
 def display_message():
-    # testing git commit
-    return "I'm learning how to perceive and process this all"
+    return 'Just testing the waters, the plan is to use the commit history for my personal tracking, sorry folks, not like I can contribute anyway'
+#
 
-print(display_message())
