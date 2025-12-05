@@ -5,3 +5,16 @@ class Restaurant:
     #
     def describe_restaurant(self):
         print(f'{self.restaurant_name} is the best restaurant in the world!')
+
+    #
+    def open_restaurant(self):
+        print(f'{self.restaurant_name} is open!')
+
+#
+restaurant = Restaurant("Billy's Restaurant'", "Manmade material")
+
+# Show restaurant's name
+print(restaurant.restaurant_name)
+
+# Show cuisine type
+print(restaurant.cuisine_type)
